@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "image converter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Stijn\\Downloads\\Schermafbeelding 2022-12-18 130623.png\""
+    }
+  }
+}
