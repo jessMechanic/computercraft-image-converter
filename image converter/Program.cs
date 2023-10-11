@@ -15,7 +15,7 @@ public static class start
         Console.WriteLine("X size");
         int xinput = int.Parse(Console.ReadLine());
         Console.WriteLine("Y size");
-        int yinput = int.Parse(Console.ReadLine()) / 2;
+        int yinput = int.Parse(Console.ReadLine());
         for (int i = 0; i < args.Length; i++)
         {
 
@@ -57,13 +57,13 @@ public static class start
                                                                 img.GetPixel((int)x, (int)(y + 2/3* heightStep)), img.GetPixel((int)(x + widthStep *0.5),  (int)(y + 2/3* heightStep)) };
 
                             ColorCell colorCell = ColorCompair.SelectIcon(pixels);
-                            line += " " + (int)(colorCell.ColorIndex + 128);
+                            line += " " + (int)(colorCell.ColorIndex + 128);      
                             background += colorCell.BackgroundColor;
                             text += colorCell.TextColor;
                         }
-                        //    file.WriteLine(line);
+                         file.WriteLine(line);
                         file.WriteLine(background);
-                        // file.WriteLine(text);
+                         file.WriteLine(text);
                     }
                     file.Close();
                     Console.WriteLine(i);
