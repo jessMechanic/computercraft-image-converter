@@ -9,7 +9,7 @@ a simple image converter to go from an image file to a intermediair format to th
 4. move the resulting file together with the "draw.lua" to a computercraft computer via file browser or pastbin
 5. run the script with argument of the file name
 
-(running draw.lua will print the current screens display)
+(running draw.lua will print the current screens size)
 
 ### for example 
   draw.lua img0.exe
